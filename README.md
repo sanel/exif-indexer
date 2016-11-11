@@ -12,7 +12,8 @@ To compile and install, make sure to have
 $ lein uberjar
 ```
 
-This will generate `target/exif-indexer.jar` executable jar file.
+This will generate `target/exif-indexer.jar` executable jar file. The
+file is self-contained and you can move it in folder you like.
 
 ## Usage
 
