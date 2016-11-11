@@ -8,7 +8,7 @@ http requests."
             [clojure.xml :as xml]
             [clojure.java.jdbc :as sql]))
 
-;; For reading images from S3, I'm not going to use AWS S3 libraries, just to keep things simple.
+;; For reading images from S3, I'm not using AWS S3 libraries, to keep things simple.
 ;; Instead, application will read S3 XML bucket metadata, extract <Key> and collect associated metadata.
 ;; Value from <Key> tag is appended to base S3 public bucket url.
 
